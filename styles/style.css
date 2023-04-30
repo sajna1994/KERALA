@@ -58,6 +58,10 @@ nav li a:hover{
         font-weight: 900;
         text-shadow: 3px 3px 3px #000;
 }
+.home-slider h1:hover{
+  filter: grayscale();
+  transform: scale(1.03); 
+}
 #touristslider #h3{
   color:#f5f3f8;
   text-shadow: 3px 3px 3px #000;
@@ -78,6 +82,10 @@ color: #bebebe;
 letter-spacing: 0.1em;
 text-shadow: 0 0 6px rgba(255,233,169,0.25);
 font-weight: 900;
+}
+.home-slider h3:hover{
+  filter: grayscale(1);
+  transform: scale(1.03); 
 }
 .login-section{
     background-image: url(../images/page2.jpg);
@@ -110,13 +118,8 @@ font-weight: 900;
     background-position: fixed;
     box-sizing: border-box;
 }
- 
-   
-   
-    
-   
-   
-    .container1{
+
+  .container1{
       margin-left: 25%;
       margin-top: 35px;
       margin-bottom: 35px;
@@ -140,16 +143,7 @@ font-weight: 900;
       /* position: relative; */
 
     }
-    /* .container1 .title::before{
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      height: 3px;
-      width: 30px;
-      border-radius: 5px;
-      background: linear-gradient(135deg, #71b7e6, #9b59b6);
-    } */
+   
   
   .content form .user-details{
     display: flex;
@@ -180,10 +174,7 @@ font-weight: 900;
     border-bottom-width: 2px;
     transition: all 0.3s ease;
   }
-  /* .user-details .input-box input:focus,
-  .user-details .input-box input:valid{
-    border-color: #712a90;
-  } */
+ 
    form .gender-details .gender-title{
     font-size: 20px;
     font-weight: 500;

@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section_kollam{
+    background-image: url(../kollam/hgg.jpg);
+    background-size: cover;
+    background-position: fixed;
+}
+.section_kollam h1{
+    text-align: center;
+    margin: 30px;
+    color: rgb(21, 38, 63);
+    font-family: 'Sigmar', cursive;
+   
+}
+.section_kollam img{
+    cursor: pointer;
+  
+    transition: 400ms;   
+}
+.section_kollam img:hover{
+   
+       filter: brightness();
+        transform: scale(1.03);
+      }
+
+.section_kollam #para{
+    font-family: 'Sigmar', cursive; 
+    padding: 40px;
+    text-align: justify;
+}
+
+.section_kollam img{
+    width: 25%;
+    height: 25%;
+    margin-left: 38%;
+    box-shadow: 10px 30px 41px 11px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 30px 41px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 30px 41px 11px rgba(0,0,0,0.75);
+}
+
+.section_kollam .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   }
+   .section_kollam .col h1{
+    text-align: center;
+    padding: 25px;
+    margin-top: 25px;
+   
+    color: #1a3455;
+   
+   }
+   .col img{
+    width: 450px;
+    height: 350px;
+    /* border: 2px solid rgb(102, 102, 147);  */
+    /* border-radius: 13px; */
+    box-shadow: 10px 15px 29px 13px rgba(0,0,0,0.81);
+    -webkit-box-shadow: 10px 15px 29px 13px rgba(0,0,0,0.81);
+    -moz-box-shadow: 10px 15px 29px 13px rgba(0,0,0,0.81);
+   cursor: pointer;
+  
+  transition: 400ms;
+  margin-left: 10px;
+}
+
+.col img:hover{
+  filter: drop-shadow();
+  transform: scale(1.03);
+} 
+footer{
+    background-color: black;
+    color: white;
+   
+
+}
+footer h3{
+    text-align: center;
+}

@@ -83,76 +83,63 @@
     border-bottom-width: 2px;
     transition: all 0.3s ease;
   }
-  #set
-  {
-   
-      display:block ;
-      position:relative;
-      margin:auto;
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
   }
-  #count
-  {
-     display:inline-block;
-     position:relative ;
-     margin:4%; margin-bottom:2%;
-     color:#000; font-size:18px;
-     text-indent:40px;
-     font-weight:bolder;
-     
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
   }
-  #see
-  {
-      display:inline-block;
-      color:gray;
-      margin:auto; 
-     float: right;
-      margin-right:40px;
-      margin-top:10px;
-      cursor:pointer; 
-      transition-duration:0.2s;
+  
+  /* Style the container for inputs */
+  .container {
+    background-color: #f1f1f1;
+    padding: 20px;
   }
-  input[id='password']
-  {
-      padding: 10px;
-      border:none; 
-      width:80%;
-      outline:none;
-      border-bottom: 5px solid #2a0845;
-      display:block; 
-      position:relative;
-      font-size:27px;
-      text-align:center;
-      top:50px;
-      margin-top: -20px;
-      margin-left:35px;
-      margin-bottom:40px;
-      user-select:auto;
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      transition-duration:600ms;
+  
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
   }
-  i
-  {
-      font-size:15px;
-      transition-duration:600ms;    
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
   }
-  #check0,#check1,#check2,#check3,#check4
-  {
-     display:block;
-     position:relative;
-     /* margin:4%; */
-     color:red; font-size:18px;
-     width:80% ;
-     /* text-align: center; */
-     text-align: justify;
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
   }
-  span
-  {
-      margin:10px;
-      font-weight: bold;
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    /* content: "&#10004;"; */
   }
-  input:hover
-  {
-      border-bottom:5px solid #6441a5;
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    /* content: "&#10006;"; */
   }
  
    form .gender-details .gender-title{

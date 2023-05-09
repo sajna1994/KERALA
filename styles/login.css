@@ -1,0 +1,127 @@
+.navbar{
+    display: flex;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(119, 106, 106, 0.5);
+     
+  }
+  nav ul{
+    display: flex;
+      margin-left: 620px;
+      font-size: larger; 
+      /* border: solid black; */
+      font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  nav li a:hover{
+      background-color: hwb(190 28% 5%);
+      box-shadow: 0 0 10px rgb(50, 104, 123) ;
+  
+  }
+.login-section{
+    background-image: url(../images/page2.jpg);
+    background-size: cover;
+    background-position: fixed;
+}
+.formlog h1{
+    font-family: 'Sigmar', cursive;
+}
+.formlog{
+    padding: 35px;
+    background-color: rgb(232, 232, 232);
+    box-shadow: 17px 13px 42px 9px rgba(0,0,0,0.76);
+-webkit-box-shadow: 17px 13px 42px 9px rgba(0,0,0,0.76);
+-moz-box-shadow: 17px 13px 42px 9px rgba(0,0,0,0.76);
+}
+/* .passwordInput{
+    margin-top: 5%; 
+    text-align :center;
+}
+
+.displayBadge{
+    margin-top: 5%; 
+    display: none; 
+    text-align :center;
+} */
+#set
+{
+    display:block ;
+    position:relative;
+    margin:auto;
+}
+#count
+{
+   display:inline-block;
+   position:relative ;
+   margin:4%; margin-bottom:2%;
+   color:#000; font-size:18px;
+   text-indent:40px;
+   font-weight:bolder;
+   
+}
+#see
+{
+    display:inline-block;
+    color:gray;
+    margin:auto; 
+   float: right;
+    margin-right:40px;
+    margin-top:10px;
+    cursor:pointer; 
+    transition-duration:0.2s;
+}
+input[id='password']
+{
+    padding: 10px;
+    border:none; 
+    width:80%;
+    outline:none;
+    border-bottom: 5px solid #2a0845;
+    display:block; 
+    position:relative;
+    font-size:27px;
+    text-align:center;
+    top:50px;
+    margin-top: -20px;
+    margin-left:35px;
+    margin-bottom:40px;
+    user-select:auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition-duration:600ms;
+}
+i
+{
+    font-size:23px;
+    transition-duration:600ms;    
+}
+#check0,#check1,#check2,#check3,#check4
+{
+   display:block;
+   position:relative;
+   margin:4%;
+   color:red; font-size:18px;
+   width:92% ;
+   
+}
+span
+{
+    margin:10px;
+    font-weight: bold;
+}
+input:hover
+{
+    border-bottom:5px solid #6441a5;
+}
+#logb{
+    width: 100%;
+}
+.forg a{
+    margin: 130px;
+    text-decoration: none;
+    color: #025fd2;
+    font-size: 12px;
+    font-weight: 500;
+}

@@ -10,7 +10,7 @@
 }
 .section_kollam h1{
     text-align: center;
-    margin: 30px;
+    margin-top: 93px;
     color: rgb(21, 38, 63);
     font-family: 'Sigmar', cursive;
    
@@ -47,6 +47,29 @@
     align-items: center;
    
    }
+   .navbar{
+    display: flex;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(119, 106, 106, 0.5);
+     
+  }
+  nav ul{
+    display: flex;
+      margin-left: 620px;
+      font-size: larger; 
+      /* border: solid black; */
+      font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  nav li a:hover{
+      background-color: hwb(190 28% 5%);
+      box-shadow: 0 0 10px rgb(50, 104, 123) ;
+  
+  }
    .section_kollam .col h1{
     text-align: center;
     padding: 25px;

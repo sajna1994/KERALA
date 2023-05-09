@@ -3,24 +3,47 @@
     margin: 0;
     box-sizing: border-box;
 }
+.navbar{
+    display: flex;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(119, 106, 106, 0.5);
+     
+  }
+  nav ul{
+    display: flex;
+      margin-left: 620px;
+      font-size: larger; 
+      /* border: solid black; */
+      font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  nav li a:hover{
+      background-color: hwb(190 28% 5%);
+      box-shadow: 0 0 10px rgb(50, 104, 123) ;
+  
+  }
 .section_kozhikode{
     background-image: url(../kohikkode/bac.jpg);
     background-size: cover;
     background-position: fixed;
 }
-.section_kozhikode h1{
+ #ko{
     text-align: center;
-    margin: 30px;
+    margin-top:93px;
     color: rgb(21, 38, 63);
     font-family: 'Sigmar', cursive;
    
 }
-.section_kozhikode img{
+#new img{
     cursor: pointer;
-  
+ 
     transition: 400ms;   
 }
-.section_kozhikode img:hover{
+#new img:hover{
    
        filter: brightness();
         transform: scale(1.03);
@@ -66,7 +89,7 @@
    cursor: pointer;
   
   transition: 400ms;
-  margin-left: 10px;
+  margin-left: 1px;
 }
 
 .col img:hover{

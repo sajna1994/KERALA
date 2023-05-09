@@ -1,0 +1,212 @@
+.navbar{
+    display: flex;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(119, 106, 106, 0.5);
+     
+  }
+  nav ul{
+    display: flex;
+      margin-left: 620px;
+      font-size: larger; 
+      /* border: solid black; */
+      font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  nav li a:hover{
+      background-color: hwb(190 28% 5%);
+      box-shadow: 0 0 10px rgb(50, 104, 123) ;
+  
+  } 
+  .section-signup{
+    background-image: url(../images/abcd.jpg);
+    background-size: cover;
+    background-position: fixed;
+    box-sizing: border-box;
+}
+
+  .container1{
+      margin-left: 25%;
+      margin-top: 114px;
+      margin-bottom: 35px;
+      max-width: 700px;
+      width: 100%;
+      
+      padding: 25px 30px;
+      
+      box-shadow: 10px 14px 29px 7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 14px 29px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 14px 29px 7px rgba(0,0,0,0.75);
+     
+    }
+    .container1 .title{
+      text-align: center;
+      font-size: 35px;
+      font-weight: 500;
+      color: #203e62;
+      font-family: 'Sigmar', cursive;
+      /* margin-top: 6px; */
+      /* position: relative; */
+
+    }
+   
+  
+  .content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+    color: rgb(4, 10, 11);
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+   
+  }
+
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  #set
+  {
+   
+      display:block ;
+      position:relative;
+      margin:auto;
+  }
+  #count
+  {
+     display:inline-block;
+     position:relative ;
+     margin:4%; margin-bottom:2%;
+     color:#000; font-size:18px;
+     text-indent:40px;
+     font-weight:bolder;
+     
+  }
+  #see
+  {
+      display:inline-block;
+      color:gray;
+      margin:auto; 
+     float: right;
+      margin-right:40px;
+      margin-top:10px;
+      cursor:pointer; 
+      transition-duration:0.2s;
+  }
+  input[id='password']
+  {
+      padding: 10px;
+      border:none; 
+      width:80%;
+      outline:none;
+      border-bottom: 5px solid #2a0845;
+      display:block; 
+      position:relative;
+      font-size:27px;
+      text-align:center;
+      top:50px;
+      margin-top: -20px;
+      margin-left:35px;
+      margin-bottom:40px;
+      user-select:auto;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      transition-duration:600ms;
+  }
+  i
+  {
+      font-size:15px;
+      transition-duration:600ms;    
+  }
+  #check0,#check1,#check2,#check3,#check4
+  {
+     display:block;
+     position:relative;
+     /* margin:4%; */
+     color:red; font-size:18px;
+     width:80% ;
+     /* text-align: center; */
+     text-align: justify;
+  }
+  span
+  {
+      margin:10px;
+      font-weight: bold;
+  }
+  input:hover
+  {
+      border-bottom:5px solid #6441a5;
+  }
+ 
+   form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+   color: #070408;
+   }
+   form .category{
+     display: flex;
+     width: 80%;
+     margin: 14px 0 ;
+     justify-content: space-between;
+     color: #070408;
+   }
+   form .category label{
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+   }
+   form .category label .dot{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background: #d9d9d9;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+  }
+   #dot-1:checked ~ .category label .one,
+   #dot-2:checked ~ .category label .two,
+   #dot-3:checked ~ .category label .three{
+     background: #9b59b6;
+     border-color: #d9d9d9;
+   }
+   form input[type="radio"]{
+     display: none;
+   }
+   #logb{
+    width: 100%;
+   }
+  /* #logb .button{
+     height: 45px;
+     margin: 35px 0
+   }
+   #logb .button input{
+     height: 100%;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     background: linear-gradient(135deg, #71b7e6, #010204);
+   }   */
